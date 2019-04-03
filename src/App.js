@@ -7,7 +7,15 @@ class App extends Component {
     return (
       <div className="App">
         <h2>Activity Board</h2>
-        <ProfileCard />
+        <div className="wrapper">
+          <ProfileCard />
+          <ProfileCard />
+          <ProfileCard />
+          <ProfileCard />
+          <ProfileCard />
+          <ProfileCard />
+          <ProfileCard />
+        </div>
       </div>
     );
   }

@@ -1,10 +1,18 @@
 /* #282c34 */
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  background-color: #263238;
+  min-width: 254px;
+}
 .App {
   text-align: center;
-  background-color: #263238;
   color: white;
   height: 100vh;
 }
@@ -15,4 +23,13 @@ h4,
 h5,
 h6 {
   margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
 }
